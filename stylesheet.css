@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+.wrapper {
+    max-width: 2000px;
+    margin: 0;
+}
+.main {
+    position: relative;
+    float: right;
+    margin: 0;
+    width: 97%;
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+}
+.main a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+.profile {
+    padding-left: 45px;
+}
+
+.profile a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+#prof_fig {
+    margin-top: 0;
+}
+.profile_img {
+    padding-left: 30px;
+    margin-top: 0;
+}
+
+#name {
+    padding-left: 25px;
+    color: dimgrey;
+}
+
+.side {
+    position: fixed;
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    background-color: dimgrey;
+}
+header {
+    text-align: left;
+    position: relative;
+    height: 10vh;
+    float: right;
+    width: 100%;
+    background-color: rgb(119, 195, 223);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#header_name {
+    color: aliceblue;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#top-list li{
+    display: inline-block;
+    height: auto;
+    padding: 0;
+}
+#top-list li a{
+    color: black;
+	padding: .4em .8em;
+}
+#top-list li a:hover{
+    color: white;
+}
+#profile {
+    padding-bottom: 60px;
+}
+ul {
+    padding-bottom: 60px;
+}
+h2 {
+    position: relative;
+    padding-left: 25px;
+}
+#invited_talk {
+    padding-left: 20px;
+}
+#internship {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+#Teaching_Assistant {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+#internship_lis {
+    margin-bottom: 0px;
+}
+#invited_talk_lis {
+    margin-bottom: 0px;
+}
+
+#international {
+    padding-left: 20px;
+}
+
+#domestic {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+h1 {
+    padding: 15px;
+    margin-top: 0;
+    color: #111111;
+}
+
+h2{
+    color: dimgrey;
+    font-size: 30px;
+}
+h3 {
+    color: dimgrey;
+    font-size: 23px;
+}
+li {
+    color: dimgrey;
+    margin-bottom: 8px;
+}
+strong {
+    color: #222222;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+h2:before {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 15px transparent;
+    border-bottom: solid 15px rgb(119, 195, 223);
+}
+h2:after {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 10px;
+    width: 100%;
+    border-bottom: solid 3px rgb(119, 195, 223);
+}
+
+#my-parts {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+    background-color: dimgrey;
+}
+#my-parts li a {
+	display: block;
+	padding: .4em .8em;
+	text-decoration: none;
+	background-color: dimgray;
+	color: white;
+	text-align: left;
+	margin: .2em 0;
+}
+#my-parts li a:hover {
+	background-color: darkgrey;
+}
+
+#info {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .main{
+        width: 100%;
+        height: auto;
+        padding-top: 30%;
+        margin-left: auto;
+    }
+    .side{
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    #my-parts li {
+        display: inline-block;
+    }
+}
