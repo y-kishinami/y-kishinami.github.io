@@ -108,7 +108,11 @@ h2 {
     margin-bottom: 0px;
 }
 
-#international {
+#international-journal {
+    padding-left: 20px;
+}
+
+#international-conference {
     padding-left: 20px;
 }
 
